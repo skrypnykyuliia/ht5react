@@ -1,0 +1,37 @@
+button {
+    background-color: #0c0417;
+    border: none;
+  }
+  
+  .btnBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 446px;
+    height: 175px;
+    border: 3px solid #1ed760;
+    border-radius: 65px;
+    gap: 15px;
+  }
+  .btn {
+    position: relative;
+    transition: top ease 0.5s ease;
+  }
+  
+  .btn:hover {
+    cursor: pointer;
+    top: -10px;
+    fill: #1181f1;
+    filter: brightness(0.5) saturate(3) hue-rotate(100deg);
+  }
+  
+  @media (max-width: 540px) {
+    .btnBox {
+      width: 80%;
+      gap: 0;
+    }
+    .btn {
+      width: 80%;
+    }
+  }

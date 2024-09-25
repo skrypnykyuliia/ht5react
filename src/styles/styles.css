@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: #0c0417;
+}
+.App {
+  text-align: center;
+}
+
+.main {
+  margin-top: 111px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.header {
+  display: flex;
+  text-align: left;
+}
+
+.logo {
+  margin-top: 55px;
+  margin-left: 35px;
+}
+
+.text,
+.title {
+  color: #1ed760;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 75.84px;
+}
+
+p {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 37.92px;
+}
